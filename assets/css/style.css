@@ -1710,6 +1710,15 @@ h4 { font-size: clamp(1.05rem, 1.3vw, 1.25rem); }
   }
 }
 
+.footer-heading {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-heading);
+  margin-bottom: 1.1rem;
+  text-align: start;
+}
+
 @media (max-width: 600px) {
   .footer-grid {
     grid-template-columns: 1fr;
@@ -1735,15 +1744,6 @@ h4 { font-size: clamp(1.05rem, 1.3vw, 1.25rem); }
   .footer-links {
     align-items: center;
   }
-}
-
-.footer-heading {
-  font-family: var(--font-display);
-  font-size: 1.05rem;
-  font-weight: 700;
-  color: var(--text-heading);
-  margin-bottom: 1.1rem;
-  text-align: start;
 }
 
 .footer-links {
